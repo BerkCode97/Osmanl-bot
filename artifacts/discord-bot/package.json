@@ -1,0 +1,17 @@
+{
+  "name": "@workspace/discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Osmanlı İmparatorluğu temalı Discord botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-sqlite index.js",
+    "dev": "node --experimental-sqlite --watch index.js",
+    "deploy": "node --experimental-sqlite deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
